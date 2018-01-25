@@ -14,8 +14,8 @@ export const deltakere = [
     'Odd Einar Hoel',
     'Sergio Haisch',
     'Marte Pedersen',
-    'Kyrre Havik Eriksen',
     'Ståle Kjone',
+    'Kyrre Havik Eriksen',
     'Håkon Planke Holm',
     'Live Grønlien',
     '',
@@ -26,7 +26,7 @@ export const deltakere = [
 
 export const lagnavn = [
     'Lag Løve',
-    'Lag Mvn Clean Install',
+    'Lag Dobbel Fart',
     'Lag GullGutta',
     'Lag Trine Rein',
     'Lag Snurrepipp',

@@ -23,8 +23,8 @@ Lag.defaultProps = {
 };
 
 Lag.propTypes = {
-    deltakere: PT.arrayOf(PT.string).required,
-    navn: PT.string.required
+    deltakere: PT.arrayOf(PT.string).isRequired,
+    navn: PT.string.isRequired
 };
 
 export default Lag;

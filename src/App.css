@@ -1,5 +1,4 @@
 html, body {
-  background-color: #eee;
   font-family: sans-serif;
 }
 
@@ -10,16 +9,13 @@ html, body {
   background-color: #f8f8f8;
   display: grid;
   grid-template-rows: auto 1fr auto;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  position: relative;
+  z-index: 10;
 }
 
 .App-header {
   font-size: 25px;
-  background-color: #444;
+  background-color: #af0b0b;
   color: white;
   text-align: center;
   padding: 1em;
@@ -58,19 +54,44 @@ html, body {
   color: white;
   margin: -1em -1em 1em -1em;
   padding: 0.5em;
-  background-color: #666;
+  background-color: #d41c1c;
 }
 
 
 footer {
   color: white;
   font-size: 15px;
-  background-color: #444;
+  background-color: #af0b0b;
   text-align: center;
   padding: 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.app-wrapper {
+  background-color: #6b0000;
 }
+
+@keyframes App-logo-spin2 {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+.rotate-wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.rotate {
+  margin-top: 0;
+  margin-left: -1000%;
+  width: 2000%;
+  animation: App-logo-spin2 infinite 4000s linear;
+}
+.rotate svg {
+  opacity: 0.5;
+  width: 100%;
+  stroke: rgba(255,255,255,1);
+}
+
+
