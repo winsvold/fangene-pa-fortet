@@ -18,7 +18,6 @@ export const deltakere = [
     'Kyrre Havik Eriksen',
     'Håkon Planke Holm',
     'Live Grønlien',
-    '',
     'Mats Byfuglien',
     'Karina',
     'Per Olav Mariussen'
